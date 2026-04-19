@@ -1,0 +1,4 @@
+scenario,detection_latency_seconds,false_positive_rate
+normal_load,0,0.01
+latency_spike,90,0.07
+resource_exhaustion,120,0.08

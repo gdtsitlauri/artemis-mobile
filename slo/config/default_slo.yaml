@@ -1,0 +1,6 @@
+availability_slo: 0.999
+latency_p99_slo_ms: 500.0
+error_rate_slo: 0.001
+throughput_min_rps: 5.0
+mobile_crash_rate_slo: 0.005
+frame_drop_rate_slo: 0.01

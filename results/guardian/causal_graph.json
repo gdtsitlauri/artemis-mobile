@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    "db_latency_ms",
+    "api_latency_ms",
+    "mobile_slowdown",
+    "error_rate"
+  ],
+  "edges": [
+    {
+      "source": "db_latency_ms",
+      "target": "api_latency_ms",
+      "score": 1.0
+    },
+    {
+      "source": "api_latency_ms",
+      "target": "mobile_slowdown",
+      "score": 1.0
+    },
+    {
+      "source": "mobile_slowdown",
+      "target": "error_rate",
+      "score": 0.9743
+    }
+  ]
+}

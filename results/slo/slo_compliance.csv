@@ -1,0 +1,6 @@
+metric,value
+availability,0.9333
+latency_p50_ms,136.32
+latency_p95_ms,252.96
+latency_p99_ms,314.56
+error_rate,0.0667

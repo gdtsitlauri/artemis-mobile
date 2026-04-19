@@ -1,0 +1,4 @@
+component,failure_mode,severity,probability,detectability,rpn
+backend,sqlite lock contention,8,5,5,200
+mobile,offline sync divergence,7,4,4,112
+guardian,false-positive predictive alert,5,5,3,75
