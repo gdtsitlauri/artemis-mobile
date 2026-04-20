@@ -2,8 +2,10 @@
 
 **Adaptive Reliability and Telemetry Engine for Mobile Intelligent Systems**
 
-> George David Tsitlauri · Informatics & Telecommunications, University of Thessaly, Greece · 2026  
-> gdtsitlauri@gmail.com
+**Author:** George David Tsitlauri  
+**Affiliation:** Dept. of Informatics & Telecommunications, University of Thessaly, Greece  
+**Contact:** gdtsitlauri@gmail.com  
+**Year:** 2026
 
 ARTEMIS is an open-source research framework that bridges Flutter mobile
 engineering, distributed tracing, SLO management, reliability engineering, and
@@ -107,3 +109,15 @@ Sections: Introduction · Mobile Engineering · Backend · SLO/SLI · Reliabilit
 ## License
 
 [MIT](LICENSE) © 2026 George David Tsitlauri
+
+## Citation
+
+```bibtex
+@misc{tsitlauri2026artemis,
+  author = {George David Tsitlauri},
+  title  = {ARTEMIS: A Unified Mobile Reliability and Observability Research Framework},
+  year   = {2026},
+  institution = {University of Thessaly},
+  email  = {gdtsitlauri@gmail.com}
+}
+```
