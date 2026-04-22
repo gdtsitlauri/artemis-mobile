@@ -4,8 +4,7 @@
 
 \title{ARTEMIS: A Unified Mobile Reliability and Observability Research Framework}
 \author{George~David~Tsitlauri,~\IEEEmembership{}
-  \thanks{G.~D.~Tsitlauri is with the Dept. of Informatics \& Telecommunications,
-  University of Thessaly, Greece. E-mail: gdtsitlauri@gmail.com}}
+  \thanks{George David Tsitlauri is with the Dept. of Informatics \& Telecommunications, University of Thessaly, Greece. E-mail: gdtsitlauri@gmail.com}}
 
 \begin{document}
 \maketitle
@@ -15,10 +14,12 @@ ARTEMIS unifies Flutter mobile engineering, service observability, SLO
 management, reliability engineering, and predictive telemetry analysis under a
 single open-source framework. Its novel GUARDIAN pipeline applies causal
 discovery and short-horizon LSTM forecasting to multivariate telemetry, detecting
-service degradation five minutes before users experience visible pain points.
-Evaluated against static-threshold and anomaly-detection baselines on synthetic
-workloads, GUARDIAN achieves a 5.0-minute lead time with a 0.07 false-positive
-rate, outperforming both baselines.
+service degradation before user-visible pain points in controlled telemetry
+workloads. Evaluated against static-threshold and anomaly-detection baselines on
+synthetic reliability scenarios, GUARDIAN achieves a 5.0-minute lead time with
+a 0.07 false-positive rate. These results support ARTEMIS as a credible
+simulation-first mobile reliability research framework, while broader live-app
+deployment validation remains future work.
 \end{abstract}
 
 \section{Introduction}
@@ -208,3 +209,5 @@ impacted. The entire framework runs on a single developer laptop under WSL2 and
 is released under the MIT license.
 
 \end{document}
+
+
